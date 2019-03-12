@@ -135,9 +135,8 @@ func main() {
 			Value: "secret",
 			Usage: "random data to use for cookies; changing it will invalidate all sessions",
 		},
-		cli.BoolFlag{
+		cli.BoolTFlag{
 			Name:  "allow-file-uploads",
-			Value: True,
 			Usage: "Enable file uploads",
 		},
 		cli.UintFlag{
